@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transportmanagementsystem.OnlinePaymentController">
+   <children>
+      <Label layoutX="303.0" layoutY="48.0" text="Online Payment" />
+      <Label layoutX="178.0" layoutY="267.0" text="Account Number:" />
+      <Label layoutX="178.0" layoutY="313.0" text="Password:" />
+      <TextField fx:id="accountNumber" layoutX="367.0" layoutY="263.0" />
+      <Button fx:id="payNowBtn" layoutX="456.0" layoutY="364.0" mnemonicParsing="false" onAction="#payNow" text="Pay now" />
+      <TextArea fx:id="onlinePayment" disable="true" layoutX="153.0" layoutY="83.0" prefHeight="125.0" prefWidth="359.0" />
+      <PasswordField fx:id="bankPassword" layoutX="367.0" layoutY="309.0" />
+      <Label fx:id="paymentStatusLabel" layoutX="432.0" layoutY="402.0" prefHeight="17.0" prefWidth="85.0" textAlignment="RIGHT" textFill="#f50a0a" />
+   </children>
+</AnchorPane>

@@ -14,18 +14,18 @@
     <Insets bottom="20.0" left="20.0" right="20.0" top="40.0" />
   </padding>
 
-  <Label fx:id="welcomeText" />
-   <AnchorPane prefHeight="368.0" prefWidth="651.0">
+
+   <AnchorPane prefHeight="469.0" prefWidth="691.0">
       <children>
-         <Button fx:id="btnScene1" layoutX="282.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleLoginBtn" text="button" />
+         <Button fx:id="loginBtn" layoutX="282.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleLoginBtn" text="Login" />
          <Label layoutX="278.0" layoutY="74.0" text="Login">
             <font>
                <Font name="Berlin Sans FB" size="30.0" />
             </font>
          </Label>
-         <TextField layoutX="242.0" layoutY="121.0" promptText="Username" />
-         <PasswordField layoutX="242.0" layoutY="171.0" promptText="Password" />
+         <TextField fx:id="username" layoutX="242.0" layoutY="121.0" promptText="Username" />
+         <PasswordField fx:id="password" layoutX="242.0" layoutY="171.0" promptText="Password" />
+         <Label fx:id="loginStatusLabel" contentDisplay="CENTER" layoutX="256.0" layoutY="260.0" prefHeight="17.0" prefWidth="114.0" textAlignment="CENTER" textFill="#eb0e0e" />
       </children>
    </AnchorPane>
-  <Button onAction="#onHelloButtonClick" text="Hello!" />
 </VBox>

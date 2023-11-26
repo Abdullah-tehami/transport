@@ -1,0 +1,2 @@
+student 1,1,pas001,acc-no-001,3,Hostalite
+student 2,2,pas002,acc-no-002,2,NonHostalite

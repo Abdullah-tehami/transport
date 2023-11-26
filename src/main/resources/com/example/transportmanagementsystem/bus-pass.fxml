@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transportmanagementsystem.BusPassController">
+   <children>
+      <Label layoutX="320.0" layoutY="36.0" text="Buss Pass" />
+      <TextArea fx:id="busPass" disable="true" layoutX="83.0" layoutY="81.0" prefHeight="271.0" prefWidth="526.0" />
+      <Button fx:id="exitBtn" layoutX="512.0" layoutY="394.0" mnemonicParsing="false" onAction="#onExit" prefHeight="25.0" prefWidth="96.0" text="Save &amp; Exit" />
+      <Button fx:id="logoutBtn" layoutX="412.0" layoutY="394.0" mnemonicParsing="false" onAction="#onLogout" prefHeight="25.0" prefWidth="90.0" text="Logout" />
+   </children>
+</AnchorPane>

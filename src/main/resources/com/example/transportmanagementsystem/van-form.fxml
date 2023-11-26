@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transportmanagementsystem.VanFormController">
+   <children>
+      <Label layoutX="332.0" layoutY="56.0" text="Van Form" />
+      <Label layoutX="88.0" layoutY="168.0" text="Pickup Point:" />
+      <Label layoutX="376.0" layoutY="168.0" text="Destination:" />
+      <TextField fx:id="pickupPoint" layoutX="175.0" layoutY="164.0" />
+      <TextField fx:id="destination" disable="true" layoutX="455.0" layoutY="164.0" />
+      <TextArea fx:id="vanDetails" disable="true" layoutX="88.0" layoutY="227.0" opacity="0.53" prefHeight="157.0" prefWidth="516.0" />
+      <Label layoutX="88.0" layoutY="202.0" text="Van Details:" />
+      <Button fx:id="confirmVanBtn" layoutX="545.0" layoutY="408.0" mnemonicParsing="false" onAction="#confirmVan" text="Confirm" />
+      <Label layoutX="192.0" layoutY="109.0" text="Select Van:" />
+      <ComboBox fx:id="vanMenu" layoutX="365.0" layoutY="105.0" onAction="#selectedVan" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+Route 1,Stop 1,bus 001
+Route 2,Stop 2,bus 001
+Route 3,Stop 3,bus 002
+Route 4,Stop 4,bus 002
+Route 5,Stop 5,bus 003
+van-route-v1,v1,van 001
+van-route-n1,n1,van 001
+van-route-new-22,new-22,van 001
+van-route-ne0=-9,ne0=-9,van 001
+van-route-pc-101,pc-101,van 001
+van-route-last,last,van 001
+van-route-off,off,van 001
